@@ -1,0 +1,6 @@
+com\tma\ov\nhongphong\ts\model\GenericModel.class
+com\tma\ov\nhongphong\ts\service\UserService.class
+com\tma\ov\nhongphong\ts\controller\HomeController.class
+com\tma\ov\nhongphong\ts\service\impl\UserServiceImpl.class
+com\tma\ov\nhongphong\ts\repositories\UserRepository.class
+com\tma\ov\nhongphong\ts\model\User.class
