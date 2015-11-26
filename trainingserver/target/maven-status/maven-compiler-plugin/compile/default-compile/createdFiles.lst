@@ -1,7 +1,7 @@
-com\tma\ov\nhongphong\ts\model\User.class
-com\tma\ov\nhongphong\ts\model\GenericModel.class
-com\tma\ov\nhongphong\ts\service\UserService.class
-com\tma\ov\nhongphong\ts\controller\HomeController.class
-com\tma\ov\nhongphong\ts\service\impl\UserServiceImpl.class
-com\tma\ov\nhongphong\ts\util\Init.class
-com\tma\ov\nhongphong\ts\repositories\UserRepository.class
+org\nhongphong\hc\controller\HomeController.class
+org\nhongphong\hc\model\GenericModel.class
+org\nhongphong\hc\repositories\UserRepository.class
+org\nhongphong\hc\model\User.class
+org\nhongphong\hc\service\impl\UserServiceImpl.class
+org\nhongphong\hc\service\UserService.class
+org\nhongphong\hc\util\Init.class
