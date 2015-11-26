@@ -27,6 +27,7 @@
 	</bean>
 	
 	<mongo:repositories base-package="org.nhongphong.hc.repositories"  mongo-template-ref="mongoTemplate"/>
+	<repositories base-package="org.nhongphong.hc.repositories.impl" repository-impl-postfix="Impl" />
 	<!-- Service for initializing MongoDB with sample data using MongoTemplate -->
 	<bean id="initMongoService" class="org.nhongphong.hc.util.Init" 
 		init-method="init" />          

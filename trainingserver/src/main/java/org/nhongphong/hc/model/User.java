@@ -1,6 +1,8 @@
 package org.nhongphong.hc.model;
 
-import org.springframework.data.annotation.Id;
+import java.util.List;
+
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection="user")
@@ -8,6 +10,8 @@ public class User extends GenericModel{
 	private String userName;
 	private String password;
 	
+	@DBRef
+	private List<Role> roles;
 	public String getUsername() {
 		return userName;
 	}
