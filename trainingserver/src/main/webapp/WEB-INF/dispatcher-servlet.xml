@@ -13,7 +13,6 @@
 	  http://www.springframework.org/schema/mvc 
 	http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
 	<context:component-scan base-package="com.tma.ov.nhongphong.ts" />
-	
 	<mvc:annotation-driven />
 	<!--Mongo db configure	 -->
 	<mongo:db-factory id="musicMongoDbFactory"
@@ -22,6 +21,7 @@
                   dbname="traindb"
                   username="nhongphong"
                   password="@121192"/>
+                  
     <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
 		<constructor-arg name="mongoDbFactory" ref="musicMongoDbFactory"/>
 	</bean>
@@ -31,10 +31,6 @@
 	<bean id="initMongoService" class="com.tma.ov.nhongphong.ts.util.Init" 
 		init-method="init" />          
 	<!--  Bean Controller -->
-	
-	<bean name="homeController" class="com.tma.ov.nhongphong.ts.controller.HomeController" >
-		<property name="userService" ref="com.tma.ov.nhongphong.ts.service.UserSerivice"></property>
-	</bean>
 	
 	<bean id="jspViewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
