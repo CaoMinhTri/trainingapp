@@ -12,7 +12,7 @@
 	  http://www.springframework.org/schema/data/mongo/spring-mongo-1.5.xsd
 	  http://www.springframework.org/schema/mvc 
 	http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
-	<context:component-scan base-package="com.tma.ov.nhongphong.ts" />
+	<context:component-scan base-package="org.nhongphong.hc" />
 	<mvc:annotation-driven />
 	<!--Mongo db configure	 -->
 	<mongo:db-factory id="musicMongoDbFactory"
@@ -26,9 +26,9 @@
 		<constructor-arg name="mongoDbFactory" ref="musicMongoDbFactory"/>
 	</bean>
 	
-	<mongo:repositories base-package="com.tma.ov.nhongphong.ts.repositories"  mongo-template-ref="mongoTemplate"/>
+	<mongo:repositories base-package="org.nhongphong.hc.repositories"  mongo-template-ref="mongoTemplate"/>
 	<!-- Service for initializing MongoDB with sample data using MongoTemplate -->
-	<bean id="initMongoService" class="com.tma.ov.nhongphong.ts.util.Init" 
+	<bean id="initMongoService" class="org.nhongphong.hc.util.Init" 
 		init-method="init" />          
 	<!--  Bean Controller -->
 	
