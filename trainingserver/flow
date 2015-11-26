@@ -41,3 +41,4 @@ Step create:
 	  <user username="test" password="test" roles="manager"/>
 	</tomcat-users>
 	
+//Test pull 
