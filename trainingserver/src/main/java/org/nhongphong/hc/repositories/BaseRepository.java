@@ -2,10 +2,9 @@ package org.nhongphong.hc.repositories;
 
 import java.io.Serializable;
 
+import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.repository.NoRepositoryBean;
-import org.springframework.data.repository.Repository;
 
 @NoRepositoryBean
-public interface BaseRepository<T, ID extends Serializable> extends Repository<T, ID>{
-
+public interface BaseRepository<T, ID extends Serializable> extends MongoRepository<T, ID> {
 }

@@ -40,4 +40,7 @@ Step create:
 	  <role rolename="manager"/>
 	  <user username="test" password="test" roles="manager"/>
 	</tomcat-users>
-	
+
++ Custom repository
+@NoBeanRepositories ở trong class Base
+đặt tên đúng qui tắc. interface  UserRepositoryCustome  --> Implement UserRepositoryImpl
