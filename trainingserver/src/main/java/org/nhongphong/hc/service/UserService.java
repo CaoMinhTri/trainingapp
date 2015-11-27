@@ -1,12 +1,9 @@
 package org.nhongphong.hc.service;
 
-import java.util.List;
-
 import org.nhongphong.hc.model.User;
-import org.nhongphong.hc.util.RequestType;
+import org.nhongphong.hc.repositories.CrudRepository;
 
-public interface UserService {
-	public User getUserByUserName(String username);
-	public List<User> getAllUsers();
-	public void crud(Object o, RequestType r);
+public interface UserService extends CrudRepository<User, Object> {
+	public User getUserByName(String username);
+	public int totalUsers();
 }

@@ -1,12 +1,13 @@
 org\nhongphong\hc\repositories\BaseRepository.class
-org\nhongphong\hc\repositories\UserRepositoryCustom.class
+org\nhongphong\hc\repositories\CrudRepository.class
 org\nhongphong\hc\controller\HomeController.class
-org\nhongphong\hc\model\GenericModel.class
 org\nhongphong\hc\model\Role.class
-org\nhongphong\hc\repositories\UserRepositoryImpl.class
-org\nhongphong\hc\util\RequestType.class
 org\nhongphong\hc\repositories\UserRepository.class
 org\nhongphong\hc\model\User.class
 org\nhongphong\hc\service\impl\UserServiceImpl.class
+org\nhongphong\hc\repositories\UserRepositoryCustom.class
+org\nhongphong\hc\model\GenericModel.class
+org\nhongphong\hc\repositories\UserRepositoryImpl.class
+org\nhongphong\hc\util\RequestType.class
 org\nhongphong\hc\service\UserService.class
 org\nhongphong\hc\util\Init.class

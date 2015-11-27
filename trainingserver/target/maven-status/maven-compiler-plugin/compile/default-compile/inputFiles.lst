@@ -1,12 +1,13 @@
 D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\model\GenericModel.java
-D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\service\impl\UserServiceImpl.java
 D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\util\Init.java
-D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\util\RequestType.java
 D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\controller\HomeController.java
+D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\repositories\UserRepository.java
+D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\repositories\UserRepositoryImpl.java
+D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\service\impl\UserServiceImpl.java
+D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\util\RequestType.java
+D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\repositories\CrudRepository.java
 D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\repositories\UserRepositoryCustom.java
 D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\service\UserService.java
 D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\repositories\BaseRepository.java
 D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\model\Role.java
-D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\repositories\UserRepository.java
 D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\model\User.java
-D:\nhongphong\workspace\GIT repositories\trainingapp\trainingserver\src\main\java\org\nhongphong\hc\repositories\UserRepositoryImpl.java

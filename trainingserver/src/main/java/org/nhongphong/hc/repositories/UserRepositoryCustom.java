@@ -1,5 +1,7 @@
 package org.nhongphong.hc.repositories;
 
-public interface UserRepositoryCustom {
-	public void customMethod();
+import org.nhongphong.hc.model.User;
+
+public interface UserRepositoryCustom extends CrudRepository<User, Object>{
+	public int totalDocument();
 }

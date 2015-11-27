@@ -1,10 +1,7 @@
 package org.nhongphong.hc.service.impl;
-import java.util.List;
-
 import org.nhongphong.hc.model.User;
 import org.nhongphong.hc.repositories.UserRepository;
 import org.nhongphong.hc.service.UserService;
-import org.nhongphong.hc.util.RequestType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,16 +9,32 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl implements UserService {
 	@Autowired
 	private UserRepository userRepository;
+	
 	@Override
-	public User getUserByUserName(String username) {
-		return null;
+	public User getUserByName(String username) {
+		return userRepository.findByUserName(username);
 	}
+
 	@Override
-	public List<User> getAllUsers() {
-		return null;
+	public int totalUsers() {
+		return userRepository.totalDocument();
 	}
+
 	@Override
-	public void crud(Object o, RequestType r) {
+	public User create(User t) {
+		userRepository.create(t);
+		return userRepository.findByUserName(t.getUsername());
+	}
+
+	@Override
+	public User read(User t) {
+		return userRepository.findByUserName(t.getUsername());
+	}
+
+	@Override
+	public User update(User t) {
+
+		return userRepository.update(t);
 	}
 	
 }
